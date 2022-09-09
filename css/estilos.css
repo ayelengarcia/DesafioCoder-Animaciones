@@ -135,6 +135,11 @@ h1 {
   transform: skew(-12deg);
 }
 
+.animate_animated,
+.animate__bounceInUp {
+  animation-delay: 1s;
+}
+
 footer {
   background-color: black;
   grid-area: footer;
