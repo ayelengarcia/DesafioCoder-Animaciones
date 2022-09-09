@@ -5,8 +5,20 @@
 }
 
 body {
-  background-image: url(../assets/marron-beige-crema-claro-lujo-abstracto-como-fondo-modelo-textura-seda-algodon_1258-71591.jpg);
-  background-size: cover;
+  background: linear-gradient(
+    0deg,
+    rgba(5, 3, 0, 1) 0%,
+    rgba(40, 31, 4, 1) 9%,
+    rgba(66, 51, 14, 1) 20%,
+    rgba(84, 69, 33, 1) 31%,
+    rgba(93, 80, 44, 1) 43%,
+    rgba(99, 88, 54, 1) 53%,
+    rgba(116, 105, 69, 1) 63%,
+    rgba(125, 116, 85, 1) 72%,
+    rgba(156, 147, 118, 1) 82%,
+    rgba(185, 178, 153, 1) 92%,
+    rgba(221, 220, 216, 1) 100%
+  );
   display: grid;
   height: 120vh;
   grid-template-rows: 0.1fr 2fr 0.2fr;
@@ -65,15 +77,27 @@ main {
 }
 
 main section {
+  padding: 0 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   width: 300px;
   height: 400px;
-  background-color: black;
+  background: linear-gradient(
+    177.71deg,
+    #151414 -5.15%,
+    rgba(21, 20, 20, 0) 147.47%
+  );
   color: aliceblue;
 }
 
 footer {
   background-color: black;
   grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer p {
