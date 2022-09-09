@@ -3,3 +3,25 @@
   margin: 0%;
   box-sizing: border-box;
 }
+
+body {
+  background-image: url(../assets/pared-ladrillo-negro-textura-fondo_53876-63572.jpg);
+  background-size: cover;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 0.5fr 1fr 0.5fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header" "main" "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
